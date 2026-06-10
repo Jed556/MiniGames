@@ -1,0 +1,223 @@
+.qa-game {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  min-height: calc(100vh - 128px);
+}
+
+.qa-header {
+  width: 100%;
+  max-width: 800px;
+  padding: 24px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.qa-header h1 {
+  margin-bottom: 8px;
+  color: var(--accent-color);
+}
+
+.qa-board {
+  width: 100%;
+  max-width: 800px;
+  padding: 48px 24px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.question-text {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.qa-controls {
+  display: flex;
+  gap: 16px;
+  margin-top: 24px;
+  height: 48px;
+}
+
+.tech-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: 24px;
+  font-weight: bold;
+  font-size: 1rem;
+  border: 1px solid var(--border-color);
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  transition: all 0.2s;
+}
+
+.tech-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.timer-pill {
+  min-width: 110px;
+  justify-content: center;
+}
+
+.timer-pill span {
+  font-variant-numeric: tabular-nums;
+}
+
+.tech-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.hint-btn:hover:not(:disabled) {
+  border-color: #eab308;
+  color: #eab308;
+}
+
+.hint-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--border-color);
+  color: var(--text-primary);
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-left: 4px;
+  transition: all 0.2s;
+}
+
+.hint-btn:hover:not(:disabled) .hint-badge {
+  background-color: #eab308;
+  color: #fff;
+}
+
+.next-btn {
+  background: var(--success-color);
+  color: #fff;
+  border-color: var(--success-color);
+}
+
+.next-btn:hover {
+  background: #059669;
+}
+
+@keyframes qa-dialog-pop {
+  0% { opacity: 0; transform: scale(0.8) translateY(20px); }
+  100% { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.qa-status-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.qa-status-dialog {
+  padding: 24px 48px;
+  border-radius: 16px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  animation: qa-dialog-pop 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28) forwards;
+  color: white;
+  pointer-events: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 101;
+}
+
+.qa-status-dialog.won {
+  background: rgba(16, 185, 129, 0.95);
+  border: 2px solid #34d399;
+}
+
+.qa-status-dialog.timeout {
+  background: rgba(239, 68, 68, 0.95);
+  border: 2px solid #f87171;
+}
+
+
+
+.intro-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  border-radius: 16px;
+}
+
+.intro-modal {
+  padding: 48px;
+  border-radius: 24px;
+  text-align: center;
+  max-width: 500px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.intro-modal h1 {
+  color: var(--accent-color);
+  margin: 0;
+  font-size: 2.5rem;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.intro-modal p {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.start-btn {
+  background: var(--accent-color);
+  color: white;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s, box-shadow 0.2s;
+  margin-top: 12px;
+  box-shadow: 0 4px 0 rgba(0,0,0,0.2);
+}
+
+.start-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 rgba(0,0,0,0.2);
+  filter: brightness(1.1);
+}

@@ -1,0 +1,54 @@
+:root {
+  /* Default Techy Theme (Dark) */
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --bg-tertiary: #334155;
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --accent-color: #3b82f6; /* Blue */
+  --accent-hover: #2563eb;
+  --border-color: #334155;
+  --success-color: #10b981;
+  --error-color: #ef4444;
+  --glass-bg: rgba(30, 41, 59, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --grid-line: rgba(255, 255, 255, 0.05);
+}
+
+[data-theme='light'] {
+  --bg-primary: #f1f5f9;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #e2e8f0;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --accent-color: #3b82f6;
+  --accent-hover: #2563eb;
+  --border-color: #cbd5e1;
+  --success-color: #10b981;
+  --error-color: #ef4444;
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(0, 0, 0, 0.1);
+  --grid-line: rgba(0, 0, 0, 0.05);
+}
+
+[data-color-palette='cyberpunk'] {
+  --accent-color: #d946ef; /* Fuchsia */
+  --accent-hover: #c026d3;
+}
+
+[data-color-palette='neon-green'] {
+  --accent-color: #10b981;
+  --accent-hover: #059669;
+}
+
+[data-color-palette='hacker'] {
+  --bg-primary: #000000;
+  --bg-secondary: #0a0a0a;
+  --text-primary: #22c55e;
+  --text-secondary: #16a34a;
+  --accent-color: #22c55e;
+  --accent-hover: #16a34a;
+  --border-color: #14532d;
+  --glass-bg: rgba(0, 0, 0, 0.8);
+  --grid-line: rgba(34, 197, 94, 0.1);
+}

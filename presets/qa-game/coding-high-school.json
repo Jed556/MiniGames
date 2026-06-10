@@ -1,0 +1,378 @@
+[
+  {
+    "q": "What does the H in HTML stand for?",
+    "a": "HYPERTEXT"
+  },
+  {
+    "q": "What does the M in HTML stand for?",
+    "a": "MARKUP"
+  },
+  {
+    "q": "What does the L in HTML stand for?",
+    "a": "LANGUAGE"
+  },
+  {
+    "q": "What does the C in CSS stand for?",
+    "a": "CASCADING"
+  },
+  {
+    "q": "What does the first S in CSS stand for?",
+    "a": "STYLE"
+  },
+  {
+    "q": "What does the second S in CSS stand for?",
+    "a": "SHEETS"
+  },
+  {
+    "q": "The language used to structure web pages.",
+    "a": "HTML"
+  },
+  {
+    "q": "The language used to style web pages.",
+    "a": "CSS"
+  },
+  {
+    "q": "A programming language named after a snake.",
+    "a": "PYTHON"
+  },
+  {
+    "q": "The brain of the computer.",
+    "a": "CPU"
+  },
+  {
+    "q": "Temporary memory used by the computer.",
+    "a": "RAM"
+  },
+  {
+    "q": "Graphics processing unit abbreviation.",
+    "a": "GPU"
+  },
+  {
+    "q": "Storage device with moving parts.",
+    "a": "HDD"
+  },
+  {
+    "q": "Storage device with no moving parts.",
+    "a": "SSD"
+  },
+  {
+    "q": "Main circuit board of a computer.",
+    "a": "MOTHERBOARD"
+  },
+  {
+    "q": "Portable computer that folds shut.",
+    "a": "LAPTOP"
+  },
+  {
+    "q": "Handheld device used for calls and apps.",
+    "a": "SMARTPHONE"
+  },
+  {
+    "q": "Input device commonly used for typing.",
+    "a": "KEYBOARD"
+  },
+  {
+    "q": "Pointing device used to control the cursor.",
+    "a": "MOUSE"
+  },
+  {
+    "q": "Device used to print documents.",
+    "a": "PRINTER"
+  },
+  {
+    "q": "Device used to display images and text.",
+    "a": "MONITOR"
+  },
+  {
+    "q": "Device used to scan paper documents.",
+    "a": "SCANNER"
+  },
+  {
+    "q": "Device used to produce sound.",
+    "a": "SPEAKER"
+  },
+  {
+    "q": "Device used to capture video.",
+    "a": "WEBCAM"
+  },
+  {
+    "q": "Global network connecting computers.",
+    "a": "INTERNET"
+  },
+  {
+    "q": "A website address is called a...",
+    "a": "URL"
+  },
+  {
+    "q": "Popular search engine owned by Google.",
+    "a": "GOOGLE"
+  },
+  {
+    "q": "Video sharing website owned by Google.",
+    "a": "YOUTUBE"
+  },
+  {
+    "q": "Social media platform known for short videos.",
+    "a": "TIKTOK"
+  },
+  {
+    "q": "Social media platform represented by a blue bird in the past.",
+    "a": "TWITTER"
+  },
+  {
+    "q": "App commonly used for online meetings.",
+    "a": "ZOOM"
+  },
+  {
+    "q": "Application used to browse websites.",
+    "a": "BROWSER"
+  },
+  {
+    "q": "Popular browser developed by Google.",
+    "a": "CHROME"
+  },
+  {
+    "q": "Popular browser developed by Mozilla.",
+    "a": "FIREFOX"
+  },
+  {
+    "q": "Microsoft's web browser.",
+    "a": "EDGE"
+  },
+  {
+    "q": "Apple's web browser.",
+    "a": "SAFARI"
+  },
+  {
+    "q": "Operating system developed by Microsoft.",
+    "a": "WINDOWS"
+  },
+  {
+    "q": "Operating system developed by Apple.",
+    "a": "MACOS"
+  },
+  {
+    "q": "Google's mobile operating system.",
+    "a": "ANDROID"
+  },
+  {
+    "q": "Apple's mobile operating system.",
+    "a": "IOS"
+  },
+  {
+    "q": "Company that created Windows.",
+    "a": "MICROSOFT"
+  },
+  {
+    "q": "Company that created the iPhone.",
+    "a": "APPLE"
+  },
+  {
+    "q": "Company that created Android.",
+    "a": "GOOGLE"
+  },
+  {
+    "q": "Company that created Facebook.",
+    "a": "META"
+  },
+  {
+    "q": "Company that created ChatGPT.",
+    "a": "OPENAI"
+  },
+  {
+    "q": "Artificial Intelligence abbreviation.",
+    "a": "AI"
+  },
+  {
+    "q": "Machine Learning abbreviation.",
+    "a": "ML"
+  },
+  {
+    "q": "Large Language Model abbreviation.",
+    "a": "LLM"
+  },
+  {
+    "q": "Finding and fixing errors in code.",
+    "a": "DEBUGGING"
+  },
+  {
+    "q": "A true or false data type.",
+    "a": "BOOLEAN"
+  },
+  {
+    "q": "A sequence of characters used as text.",
+    "a": "STRING"
+  },
+  {
+    "q": "A value that can change while a program runs.",
+    "a": "VARIABLE"
+  },
+  {
+    "q": "Reusable block of code.",
+    "a": "FUNCTION"
+  },
+  {
+    "q": "A function inside a class.",
+    "a": "METHOD"
+  },
+  {
+    "q": "Collection of multiple values stored together.",
+    "a": "ARRAY"
+  },
+  {
+    "q": "Keyword used to make decisions in code.",
+    "a": "IF"
+  },
+  {
+    "q": "Branch executed when an IF condition is false.",
+    "a": "ELSE"
+  },
+  {
+    "q": "Loop commonly used for counting.",
+    "a": "FOR"
+  },
+  {
+    "q": "Loop that repeats while a condition is true.",
+    "a": "WHILE"
+  },
+  {
+    "q": "Error caused by incorrect spelling or grammar in code.",
+    "a": "SYNTAX"
+  },
+  {
+    "q": "Error caused by incorrect program logic.",
+    "a": "LOGIC"
+  },
+  {
+    "q": "The number system computers use.",
+    "a": "BINARY"
+  },
+  {
+    "q": "Binary digit.",
+    "a": "BIT"
+  },
+  {
+    "q": "Eight bits make one...",
+    "a": "BYTE"
+  },
+  {
+    "q": "How many bits are in one byte?",
+    "a": "EIGHT"
+  },
+  {
+    "q": "The two digits used in binary.",
+    "a": "ZERO AND ONE"
+  },
+  {
+    "q": "Malicious software.",
+    "a": "MALWARE"
+  },
+  {
+    "q": "Software used to protect computers from malware.",
+    "a": "ANTIVIRUS"
+  },
+  {
+    "q": "A malicious program that spreads itself.",
+    "a": "VIRUS"
+  },
+  {
+    "q": "Secret word used to access an account.",
+    "a": "PASSWORD"
+  },
+  {
+    "q": "Wireless technology used for internet access.",
+    "a": "WIFI"
+  },
+  {
+    "q": "Technology used to connect wireless earphones.",
+    "a": "BLUETOOTH"
+  },
+  {
+    "q": "Video game company that created Mario.",
+    "a": "NINTENDO"
+  },
+  {
+    "q": "Video game company behind PlayStation.",
+    "a": "SONY"
+  },
+  {
+    "q": "Video game company behind Xbox.",
+    "a": "MICROSOFT"
+  },
+  {
+    "q": "Block-building game created by Mojang.",
+    "a": "MINECRAFT"
+  },
+  {
+    "q": "Battle royale game developed by Epic Games.",
+    "a": "FORTNITE"
+  },
+  {
+    "q": "Popular sandbox game featuring creepers.",
+    "a": "MINECRAFT"
+  },
+  {
+    "q": "Most common email symbol.",
+    "a": "AT"
+  },
+  {
+    "q": "The symbol @ is commonly called?",
+    "a": "AT"
+  },
+  {
+    "q": "File format commonly used for pictures.",
+    "a": "JPEG"
+  },
+  {
+    "q": "File format commonly used for documents.",
+    "a": "PDF"
+  },
+  {
+    "q": "File format commonly used for music.",
+    "a": "MP3"
+  },
+  {
+    "q": "File format commonly used for videos.",
+    "a": "MP4"
+  },
+  {
+    "q": "The company that owns YouTube.",
+    "a": "GOOGLE"
+  },
+  {
+    "q": "The company that owns Instagram.",
+    "a": "META"
+  },
+  {
+    "q": "The company that owns WhatsApp.",
+    "a": "META"
+  },
+  {
+    "q": "The company that owns Facebook.",
+    "a": "META"
+  },
+  {
+    "q": "Popular AI chatbot released in 2022.",
+    "a": "CHATGPT"
+  },
+  {
+    "q": "Programming language whose mascot is a cup of coffee.",
+    "a": "JAVA"
+  },
+  {
+    "q": "Programming language whose logo is a blue hexagon with yellow snakes.",
+    "a": "PYTHON"
+  },
+  {
+    "q": "Most common device used for making phone calls.",
+    "a": "SMARTPHONE"
+  },
+  {
+    "q": "Storage device often plugged into USB ports.",
+    "a": "FLASH DRIVE"
+  },
+  {
+    "q": "Device that provides internet to multiple devices.",
+    "a": "ROUTER"
+  }
+]

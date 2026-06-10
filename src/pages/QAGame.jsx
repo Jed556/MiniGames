@@ -80,7 +80,7 @@ const QAGame = () => {
       }, 1000);
       return () => clearInterval(timerId);
     }
-  }, [qaTimer, status]);
+  }, [qaTimer, status, showIntroOverlay]);
 
   const handleHint = () => {
     if (hintsLeft <= 0 || status !== 'playing') return;
